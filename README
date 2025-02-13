@@ -1,64 +1,26 @@
-**Customer Churn Prediction**
+#  **Customer Churn Prediction using ANN & TensorFlow ** 
 
-## **Overview**
+##  **Overview**  
+This project predicts **customer churn** (whether a customer will leave a service) using an **Artificial Neural Network (ANN)** built with **TensorFlow and Keras**.  
 
-Customer churn prediction is a machine learning project aimed at identifying customers who are likely to stop using a service. By analyzing historical data, businesses can take proactive measures to retain customers and improve overall satisfaction.
+**Business Use Case**: Helps companies **identify at-risk customers** and take action to **reduce churn**.  
+**Dataset**: A structured dataset containing customer demographics, subscription details, and churn labels.  
+**Technology Stack**: Python, TensorFlow, Keras, Pandas, NumPy, Scikit-learn.  
 
-## Features
+---
 
-- Data preprocessing and cleaning
-- Exploratory Data Analysis (EDA)
-- Feature engineering and selection
-- Model training using machine learning algorithms
-- Evaluation and performance metrics
-- Deployment (if applicable)
+##  Features  
+**Data Preprocessing** – Handles missing values, encodes categorical variables, and normalizes data.  
+**Feature Engineering** – Selects the most important factors influencing churn.  
+**ANN Model** – A fully connected neural network trained to predict churn probability.  
+**Evaluation Metrics** – Uses accuracy, precision, recall, and F1-score.  
+**Deployable Model** – Can be integrated into a Flask API for real-world use.  
 
-## Technologies Used
+---
 
-- Python
-- Pandas, NumPy (Data Processing)
-- Matplotlib, Seaborn (Visualization)
-- Scikit-learn (Machine Learning)
-- TensorFlow/Keras (Deep Learning, if applicable)
-- Google Colab (for execution)
+## Installation  
 
-## Dataset
-
-The dataset used contains customer details, usage history, and churn labels. Common columns include:
-
-- **Customer ID**
-- **Subscription Length**
-- **Monthly Charges**
-- **Total Charges**
-- **Contract Type**
-- **Payment Method**
-- **Churn (Yes/No)**
-
-## Steps
-
-1. **Data Preprocessing**
-   - Handling missing values
-   - Encoding categorical variables
-   - Feature scaling
-2. **Exploratory Data Analysis (EDA)**
-   - Understanding data distribution
-   - Identifying key churn indicators
-3. **Model Training & Evaluation**
-   - Using Logistic Regression, Random Forest, or Neural Networks
-   - Performance evaluation using accuracy, precision, recall, and F1-score
-4. **Deployment (Optional)**
-   - Deploying the model using Flask or Streamlit
-
-## Results
-
-The model achieves an accuracy of approximately **X%** (depending on the dataset and model used). The insights gained can help businesses reduce churn rates by targeting at-risk customers with personalized retention strategies.
-
-## Future Improvements
-
-- Use deep learning models for better accuracy
-- Incorporate additional customer behavior metrics
-- Deploy the model as a web service
-
-## Contributors
-
-Ch.Nireekshana
+###  **Clone the Repository**  
+```sh
+git clone https://github.com/YOUR_GITHUB_USERNAME/customer-churn.git
+cd customer-churn
