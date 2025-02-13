@@ -14,7 +14,6 @@ This project predicts **customer churn** (whether a customer will leave a servic
 **Feature Engineering** – Selects the most important factors influencing churn.  
 **ANN Model** – A fully connected neural network trained to predict churn probability.  
 **Evaluation Metrics** – Uses accuracy, precision, recall, and F1-score.  
-**Deployable Model** – Can be integrated into a Flask API for real-world use.  
 
 ---
 
