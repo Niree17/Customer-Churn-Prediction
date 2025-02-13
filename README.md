@@ -22,6 +22,5 @@ This project predicts **customer churn** (whether a customer will leave a servic
 
 ###  **Clone the Repository**  
 ```sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/customer-churn.git
-cd customer-churn
+git clone https://github.com/Niree17/Customer-Churn-Prediction.git
 
