@@ -49,21 +49,6 @@ The dataset used contains customer details, usage history, and churn labels. Com
 4. **Deployment (Optional)**
    - Deploying the model using Flask or Streamlit
 
-## Installation & Usage
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/customer-churn-prediction.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the Jupyter Notebook or Python script:
-   ```bash
-   jupyter notebook
-   ```
-
 ## Results
 
 The model achieves an accuracy of approximately **X%** (depending on the dataset and model used). The insights gained can help businesses reduce churn rates by targeting at-risk customers with personalized retention strategies.
